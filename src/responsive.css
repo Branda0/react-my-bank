@@ -1,0 +1,59 @@
+@media (max-width: 1024px) {
+  .header-container {
+    margin: 0 20px;
+  }
+
+  .accounts-container {
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    font-size: 30px;
+  }
+
+  .user-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .user span {
+    font-size: 25px;
+  }
+
+  .header {
+    height: 70px;
+  }
+
+  .account-header {
+    height: 35px;
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 12px;
+  }
+
+  .account-container span {
+    color: #8d9aa1;
+    text-transform: uppercase;
+    font-size: 8px;
+  }
+
+  .operation-item {
+    height: 30px;
+  }
+
+  .item-right {
+    margin-left: 30px;
+  }
+
+  .see-more-btn {
+    height: 30px;
+  }
+}

@@ -1,1 +1,126 @@
 /* Other rules */
+.app-container {
+  font-family: "Cairo", sans-serif;
+  background-color: #ebeff1;
+  height: 100vh;
+}
+
+/* HEADER */
+.header {
+  background-color: #273338;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  /* border: yellow 3px solid; */
+}
+
+.header-container {
+  display: flex;
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 3px solid pink; */
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+
+.user-icon {
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 8px;
+  margin-left: 20px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user span {
+  text-transform: capitalize;
+  font-size: 35px;
+  color: white;
+}
+
+/* CONTENT */
+
+.accounts-container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.account-header {
+  height: 50px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 30px;
+  color: white;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.account-container span {
+  color: #8d9aa1;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.operation-item {
+  height: 40px;
+  background-color: blue;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.item-right {
+  margin-left: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.even {
+  background-color: #ffffff;
+}
+
+.odd {
+  background-color: #f7f7f7;
+}
+
+.see-more-btn {
+  height: 40px;
+  border-radius: 5px;
+  background-color: #f6f7f8;
+  border: none;
+  padding: 0 15px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-right: 20px;
+}
